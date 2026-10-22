@@ -1,0 +1,20 @@
+{
+  "name": "pashumitra-ai",
+  "version": "1.0.0",
+  "description": "Voice-first livestock health screening: video, sound and farm conditions fused into one explainable risk alert.",
+  "type": "module",
+  "private": true,
+  "main": "server.js",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "prestart": "node scripts/setup.js",
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test \"tests/*.test.js\"",
+    "security-test": "node --disable-warning=ExperimentalWarning scripts/security-test.js",
+    "scan-secrets": "node scripts/scan-secrets.js",
+    "audit": "node scripts/audit-deps.js"
+  },
+  "dependencies": {},
+  "license": "UNLICENSED"
+}
