@@ -121,10 +121,8 @@ See [`research/README.md`](research/README.md) for the full steps: build the ESC
 
 | Name | USN |
 |---|---|
-| Abhishek D Nagoor | 1RUA24CSE0009 |
 | Abubakar Khan | 1RUA24CSE0010 |
-| Aditi M | 1RUA24CSE0019 |
-| Amith S | 1RUA24CSE0038 |
+
 
 Guide: Dr Merin Thomas, Assistant Professor, School of Computer Science and Engineering, RV University, Bengaluru.
 
